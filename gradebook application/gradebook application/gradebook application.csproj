@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0238A3C9-F0B5-4880-B196-2662504C26DE}</ProjectGuid>
+    <ProjectGuid>{8EF6B832-CD15-4B56-9AEA-0F4051033027}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>objects_2_int</RootNamespace>
-    <AssemblyName>objects 2 int</AssemblyName>
+    <RootNamespace>gradebook_application</RootNamespace>
+    <AssemblyName>gradebook application</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assignments.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Section.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>

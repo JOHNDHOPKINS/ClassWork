@@ -1,0 +1,69 @@
+/* Add try catch statements to the following code to make it handle the following exceptions:
+		Java:
+		NumberFormatException - when doing conversions to a double/int from user's input
+		C#:
+		FormatException-when doing conversions to a double/int from user's input
+		
+		Your code should print out which input caused the Exception to occur. 
+		After the an exception occurs the program should exit. (C# Environtment.Exit(0),  Java: System.exit(0) )
+		
+		Example1 Input:
+		bob
+		1
+		2
+		3
+		
+		Example1 Output
+		enter a number
+		Input 1 was not a number.
+		
+		Example2 Input:
+		1
+		bob
+		2
+		3
+		
+		Example2 Output
+		enter a number
+		enter a number
+		Input 2 was not a number.
+		
+		Example3 Input:
+		1
+		2
+		2
+		3
+		
+		Example3 Output
+		enter a number
+		enter a number
+		enter a number
+		enter a number
+		Total is: 8
+*/
+///Use the below for Java:
+        Scanner console= new Scanner(System.in);
+		
+        System.out.println("enter a number");
+        double num1 = Double.parseDouble(console.nextLine());
+		System.out.println("enter a number");
+        double num2 = Double.parseDouble(console.nextLine());
+		System.out.println("enter a number");
+        double num3 = Double.parseDouble(console.nextLine());
+		System.out.println("enter a number");
+        double num4 = Double.parseDouble(console.nextLine());
+		double total = num1+num2+num3+num4;
+        System.out.println("Total is: "+total);
+		
+		
+//Use the below for C#
+        Console.WriteLine("enter a number");
+        double num1 = Convert.ToDouble(console.nextLine());
+		Console.WriteLine("enter a number");
+        double num2 = Convert.ToDouble(console.nextLine());
+		Console.WriteLine("enter a number");
+        double num3 = Convert.ToDouble(console.nextLine());
+		Console.WriteLine("enter a number");
+        double num4 = Convert.ToDouble(console.nextLine());
+		double total = num1+num2+num3+num4;
+        Console.WriteLine("Total is: "+total);

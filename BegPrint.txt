@@ -1,0 +1,17 @@
+//Create a program in IntelliJ or C# that does the following:
+
+//Prints out the message "Hello, World!"
+//on a new line prints out "Programming is Fun"
+//create an integer variable called: myVariable initialize the value to be 10;
+//print out the value of myVariable and a new line character( then next thing we print out should be on a new line)
+//double the value of myVariable (using *2) and put the result back into myVariable
+//on the same line print "myVariable value is: " and the value of myVariable.
+
+
+
+/*run the program and make sure the output matches exactly that below: 
+Hello, World!
+Programming is Fun
+10
+myVariable value is: 20
+*/

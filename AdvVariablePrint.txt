@@ -1,0 +1,31 @@
+//Create a new project to do the following  (you can use intellij to create a java project)
+// you should not actually be doing the math for this but writting it for the program to do.
+
+//Create 3 integer variables named "var5" "var1" and "var2"
+//initialize var1 to 5 and var2 to 6  //you will change this later
+//multiply "var1" and "var2" together and put the result in "var5"
+//print the value of var5
+//increase var1 by 1
+//add 3 to var1 and put the result in var1
+//print the value of var1
+//set var1 to be the number 7
+//subtract var1 from var2 and put it into var2
+//print the value of var2
+//set var1 to be the number 12
+//increase the value of var1 by 7.
+//print the value of var1
+//subtract var1 from the result of multipling var1 and var2 together and put the result in var5
+//print the value of var5
+//create a new variable named var3 and initialize it to 8
+//add var3 var1 and var2 together and put it into var5
+//print the value of var5
+//update var5 to be the value of var5 divided by the value of var3
+//print the value of var5
+//create a new variable named var4 and initialize it to be 9
+//subtract var3 from var4 and put the result in var3
+//print the value of var3
+//multiply var5 by var3 and put it into var5
+//print the value of var5
+//using only the variable var5 and the addition operator, double the value of var5.
+//update var5 to be 1/3rd of its current value.
+//print the value of var5

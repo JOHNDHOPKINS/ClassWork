@@ -1,0 +1,53 @@
+
+2 Decoding Roman Numerals
+
+summary: a program that can convert Roman numerals to their equal number value.
+
+Input:
+I  V  X
+Output:
+I translated to 1
+V translated to 5
+X translated to 10
+
+Input:
+L  C  II
+Output:
+L translated to 50
+C translated to 100
+II translated to 2
+
+Input:
+III  IV  VI
+Output:
+III translated to 3
+IV translated to 4
+VI translated to 6
+
+Input:
+VII  IIX  IX
+Output:
+VII translated to 7
+IIX translated to 8
+IX translated to 9
+
+Input:
+CL  CX  CV
+Output:
+CL translated to 150
+CX translated to 110
+CV translated to 105
+
+Input:
+CI  LX  LV
+Output:
+CI translated to 101
+LX translated to 60
+LV translated to 55
+
+Input:
+LI  CVII  CLXVI
+Output:
+LI translated to 51
+CVII translated to 107
+CLXVI translated to 166

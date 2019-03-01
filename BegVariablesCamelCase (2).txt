@@ -1,0 +1,55 @@
+rename the following variable names to be a camelcase variable.  if the variable is already camelcase answer as "valid". 
+
+examples:
+a.)aVariable
+ans:valid
+//explanation:aVariable is a valid camelcase variable name so we just say that is valid
+
+b.)avariable     
+ans:aVariable
+//explanation: avariable is a valid variable name but it is not a camelcase variable so we rewrite it
+
+c.)1Variable
+ans:oneVariable
+//explanation: 1variable starts with a number so it is not a valid variable name so we can rewrite it to be a valid camelcase variable.
+
+1.)camelcase
+ans:
+2.)iThinkThisIsTheCoolestVariableNameEverCreatedDoYouAgreeWithMeAsYouCanSeeThereIsNoLimitToTheMaxSizeForAVariableNameButFromAPracticalStandpointAndForReadabilityAShortDescriptiveNameMakesTheCodeEasierToReadAndLessCommentsAreNeeded
+ans:
+3.)1variable
+ans:
+4.)variable1
+ans:
+5.)aVariable
+ans:
+6.)cool
+ans:
+7.)hereIsAVariable
+ans:
+8.)what_about_this_one
+ans:
+9.)camel_case
+ans:
+10.)2_men_walked_into_a_bar
+ans:
+11.)the3rdDucked
+ans:
+12.)whatdoyoucallabullthatswallowedabomb
+ans:
+13.)aBombInABull
+ans:
+14.)whydidtheblondenur$ecarryaredpen
+ans:
+15.)toDrawBlood
+ans:
+16.)youAreAlmostDone
+ans:
+17.)3moretogo
+ans:
+18.)_onelastbadjokeleft
+ans:
+19.)whatisbrownandsticky
+ans:
+20.)aStick)
+ans:
